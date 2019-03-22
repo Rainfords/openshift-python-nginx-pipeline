@@ -7,8 +7,8 @@ pipeline {
         GIT_REPO="http://github.com/ruddra/openshift-python-nginx.git"
         GIT_BRANCH="master"
         STAGE_TAG = "promoteToQA"
-        DEV_PROJECT = "dev"
-        STAGE_PROJECT = "stage"
+        DEV_PROJECT = "ian-rainford"
+        STAGE_PROJECT = "ian-rainford"
         TEMPLATE_NAME = "python-nginx"
         ARTIFACT_FOLDER = "target"
         PORT = 8081;
